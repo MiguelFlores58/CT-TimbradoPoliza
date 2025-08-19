@@ -117,7 +117,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Timbrado" sap:VirtualizedContainerService.HintSize="1805.9999999999998,3801" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Timbrado" sap:VirtualizedContainerService.HintSize="1806,5595" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="vExisteCaptura" />
     </Sequence.Variables>
@@ -126,7 +126,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Secuencia Principal" sap:VirtualizedContainerService.HintSize="1806,3778" sap2010:WorkflowViewState.IdRef="Sequence_13">
+    <Sequence DisplayName="Secuencia Principal" sap:VirtualizedContainerService.HintSize="1806,5572" sap2010:WorkflowViewState.IdRef="Sequence_13">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="vSiHayProcesar" />
       </Sequence.Variables>
@@ -136,35 +136,35 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:RetryScope DisplayName="Retry Scope- De conectarte al escritorio remoto" sap:VirtualizedContainerService.HintSize="1772,3695" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:05:00">
+      <ui:RetryScope DisplayName="Retry Scope- De conectarte al escritorio remoto" sap:VirtualizedContainerService.HintSize="1772,5489" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:05:00">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
-            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1730,3495" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1730,5289" sap2010:WorkflowViewState.IdRef="Sequence_14">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: 10.112.20.12 - Conexión a Escritorio remoto" sap:VirtualizedContainerService.HintSize="1696,3435" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="680e8f2b-1466-46c5-bdaa-3586cb91baee" Timeout="60" Version="V2">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: 10.112.20.12 - Conexión a Escritorio remoto" sap:VirtualizedContainerService.HintSize="1696,5229" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="680e8f2b-1466-46c5-bdaa-3586cb91baee" Timeout="60" Version="V2">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1662,3119" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1662,4913" sap2010:WorkflowViewState.IdRef="Sequence_2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: recibos_cfdi.exe" sap:VirtualizedContainerService.HintSize="1628,3057" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="4f8004e4-9c5d-42c0-a11d-58238facd0f8" Timeout="60" Version="V2">
+                      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: recibos_cfdi.exe" sap:VirtualizedContainerService.HintSize="1628,4851" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="4f8004e4-9c5d-42c0-a11d-58238facd0f8" Timeout="60" Version="V2">
                         <uix:NApplicationCard.Body>
                           <ActivityAction x:TypeArguments="x:Object">
                             <ActivityAction.Argument>
                               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                             </ActivityAction.Argument>
-                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1594,2699" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1594,4533" sap2010:WorkflowViewState.IdRef="Sequence_3">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -235,13 +235,13 @@
                                   </uix:NKeyboardShortcuts.VerifyOptions>
                                 </uix:NKeyboardShortcuts>
                               </Sequence>
-                              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: Sistema Timbrado de Nómina                                 (95)   PRUEBA - DESAR" sap:VirtualizedContainerService.HintSize="1560,2580" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Timeout="60" Version="V2">
+                              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: Sistema Timbrado de Nómina                                 (95)   PRUEBA - DESAR" sap:VirtualizedContainerService.HintSize="1560,4414" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Timeout="60" Version="V2">
                                 <uix:NApplicationCard.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                     </ActivityAction.Argument>
-                                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1526,2262" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1526,4096" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="ui:Image" Name="vImagen" />
                                         <Variable x:TypeArguments="x:String" Name="Respuesta" />
@@ -316,7 +316,7 @@
                                           </sap:WorkflowViewStateService.ViewState>
                                         </uix:NClick>
                                       </Sequence>
-                                      <uix:NCheckState DisplayName="Check App State 'Aviso'" sap:VirtualizedContainerService.HintSize="1492,839" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Version="V3">
+                                      <uix:NCheckState DisplayName="Check App State 'Aviso'" sap:VirtualizedContainerService.HintSize="1492,1241" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Version="V3">
                                         <uix:NCheckState.IfExists>
                                           <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_15">
                                             <sap:WorkflowViewStateService.ViewState>
@@ -332,12 +332,24 @@
                                           </Sequence>
                                         </uix:NCheckState.IfExists>
                                         <uix:NCheckState.IfNotExists>
-                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,588" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="988,990" sap2010:WorkflowViewState.IdRef="Sequence_17">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Procesos Diarios'" sap:VirtualizedContainerService.HintSize="954,190" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Version="V3">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable DesignTimeRectangle="227, 54, 24, 22" DesignTimeScaleFactor="1" FriendlyName="'recibos_cfdi.exe Sistema'" Guid="6b3b98cf-f45b-48c0-86bc-09f069b8ba19" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB2SURBVEhL7dPBCcAgEETRKWqbsitvaSOFWMR2sHEMSfAQhOAcAgovCIE/J+HucQmgV0/O+f7/xfvAhDiBMV4UcWoDqjj1A5Pj9AwI4nSW64AiTmCYRzbAjypO3TtQWANDa2CoPTQlpJRCCWYWStj2Ekp/HyhxAPpwFD3dbo1kAAAAAElFTkSuQmCC" InformativeScreenshot="a8320de698daa1ba99d43115bdb81f92.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='recibos_cfdi.exe' cls='FNWND*' title='Sistema Timbrado de Nómina                                 (55) *' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V2" Visibility="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                      <uix:Target CvTextArea="121, 26, 88, 12" CvTextArgument="Procesos Diarios" CvType="Text" DesignTimeRectangle="123, 31, 100, 19" FriendlyName="'Procesos Diarios'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' /&gt;&lt;ctrl name='Procesos Diarios' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' /&gt;&lt;ctrl name='Procesos Diarios' role='menu item' automationid='' check:text='Procesos Diarios' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBefore="5" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="954,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][d(ctrl)]g[u(ctrl)][u(hk)]" Version="V3" />
                                             <uix:NCheckState DisplayName="Check App State 'Proceso Terminado'" sap:VirtualizedContainerService.HintSize="954,526" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Timeout="1600" Version="V3">
                                               <uix:NCheckState.IfExists>
                                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_7">
@@ -400,10 +412,10 @@
                                           </uix:TargetAnchorable>
                                         </uix:NCheckState.Target>
                                       </uix:NCheckState>
-                                      <Sequence DisplayName="Cerrar todo" sap:VirtualizedContainerService.HintSize="1492,57" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                      <Sequence DisplayName="Cerrar todo" sap:VirtualizedContainerService.HintSize="1492,1489" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
@@ -484,7 +496,7 @@
                                             </uix:VerifyExecutionOptions>
                                           </uix:NClick.VerifyOptions>
                                         </uix:NClick>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cerrar'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Version="V3">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cerrar'" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2e20261f-1bb8-45b4-8df7-bd1b35c24bd6" Version="V3">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable DesignTimeRectangle="1879, 8, 47, 20" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Cerrar'" FullSelectorArgument="&lt;ctrl name='Cerrar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cerrar' role='push button' automationid='' check:text='Cerrar' /&gt;" Guid="27706699-4cd1-4ed2-9552-6e7b4ddcc36a" InformativeScreenshot="ee76c276c7cfe9223a70eebbe9fd6a95.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='recibos_cfdi.exe' cls='FNWND*' title='Sistema Timbrado de Nómina                                 (95) *' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                                           </uix:NClick.Target>
